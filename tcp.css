@@ -125,3 +125,58 @@ font-weight: 700;
 line-height: normal;
 text-transform: capitalize;
 }
+
+.offers{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: space-around;
+}
+.grp48{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding:3%;
+    align-items: center;
+    
+}
+.txt48{
+    color: var(--text-heading-color, #1E1D4C);
+text-align: center;
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.txt482{
+    color: var(--textclr, #5E6282);
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+width: 181px;
+height: 78px;
+flex-shrink: 0;
+}
+.txtTop{
+    color: var(--textclr, #5E6282);
+text-align: center;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.TopDes{
+    color: var(--3rd, #14183E);
+text-align: center;
+font-family: Volkhov;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: capitalize;
+}
