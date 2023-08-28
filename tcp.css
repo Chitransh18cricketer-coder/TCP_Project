@@ -5,7 +5,7 @@ body{
     background-repeat: no-repeat;
     
     background-position:right top;
-    background-size: auto 47%; /* Adjust as needed */
+    background-size: auto 30%; /* Adjust as needed */
     min-height: 100vh; /* Ensure container takes at least the full viewport height */
    /* Add left padding to create space for the content */
     box-sizing: border-box;
@@ -211,4 +211,359 @@ text-transform: capitalize;
     flex-direction: column;
     padding: 8%;
     align-items: baseline;
+}
+
+.ss{
+    padding:1%;
+    width: 30%;
+}
+
+.places{
+    width: 314px;
+    height: 460px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.choose{
+    color: var(--textclr, #5E6282);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 124.5%; /* 19.92px */
+}
+
+.chooseContent{
+    color: var(--textclr, #5E6282);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 124.5%; /* 19.92px */
+}
+
+.ss2{
+    width: 172.857px;
+height: 110px;
+flex-shrink: 0;
+}
+.easy2{
+    color: var(--textclr, #5E6282);
+text-align: center;
+font-family: Poppins;
+font-size: 33px;
+font-style: normal;
+font-weight: 600;
+line-height: 54px; /* 163.636% */
+}
+.subscribe{
+    display: flex;
+    width: 100px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 10px;
+background: var(--gradient, linear-gradient(180deg, #FF946D 0%, #FF7D68 100%));
+justify-content: center;
+align-items: center;
+color: var(--white, #FFF);
+text-align: center;
+font-family: Open Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.email{
+    width: 400px;
+}
+.jadoo2{
+    color: var(--1st, #181E4B);
+font-family: Poppins;
+font-size: 44px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.company{
+    color: var(--black, #080809);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 124.5%; /* 26.145px */
+}
+.padd{
+    padding-left: 17%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    body{
+        background-image: url('bg.svg');
+        background-repeat: no-repeat;
+        background-position:right top;
+        background-size:auto 17%; /* Adjust as needed */
+        min-height: 100vh; /* Ensure container takes at least the full viewport height */
+       /* Add left padding to create space for the content */
+        box-sizing: border-box;
+    }
+
+    .jadoo{
+        width:90px;
+    }
+    .row1{
+        display: flex;
+        border: 1px solid white;
+        margin-top: 5%;
+        margin-left: 2%;
+        margin-right: 3%;
+    }
+    .signup{
+        border:2px solid black;}
+        .menu{
+            display:flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-around;
+            color: var(--1st, #212832);
+    font-family: Google Sans;
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    
+        }
+    .flex{
+        display: flex;
+        justify-content: space-around;
+        padding-left: 1%;
+        padding-right: 1%;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .travel{
+        color: var(--1st, #181E4B);
+    font-family: Volkhov;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89px; /* 105.952% */
+    letter-spacing: -3.36px;
+    }
+    .travelPara1{
+        color: #DF6951;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    }
+    .travelPara2{
+        color: #5E6282;
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; /* 187.5% */
+    }
+    .content2{
+        padding: .26%;
+    }
+    
+    .row2{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    .content2_1{
+        display:flex;
+        flex-wrap:wrap;
+        align-items: center;
+        
+    }
+    .findoutmore{
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 10px;
+    background: var(--yellow, #F1A501);
+    box-shadow: 0px 20px 35px 0px rgba(241, 165, 1, 0.15);
+    width: 100px;
+    height: 60px;
+    flex-shrink: 0;
+    color: var(--white, #FFF);
+    justify-content: center;
+    align-items: center;
+    font-family: Google Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .playDemo{
+        color: var(--text-color, #686D77);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+    .travellerPic{
+        width:300px;
+    }
+    .category{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .txtCategory{
+        color: var(--textclr, #5E6282);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    .weOffer{
+        color: var(--3rd, #14183E);
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+    
+    .offers{
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+        justify-content: space-evenly;
+    }
+    .grp48{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding:1%;
+        align-items: center;
+        
+    }
+    .txt48{
+        color: var(--text-heading-color, #1E1D4C);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    .txt482{
+        color: var(--textclr, #5E6282);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+    width: 181px;
+    height: 78px;
+    flex-shrink: 0;
+    }
+    .txtTop{
+        padding-top: 19%;
+        color: var(--textclr, #5E6282);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    .TopDes{
+        color: var(--3rd, #14183E);
+    text-align: center;
+    font-family: Volkhov;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+    .easy{
+        color: var(--textclr, #5E6282);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+    .Book{
+        color: var(--3rd, #14183E);
+    font-family: Volkhov;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    }
+    .grp{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding: 8%;
+        align-items: baseline;
+        justify-content: flex-start;
+    }
+    .ss{
+        width:60%;
+        padding: 1%;
+    }
+    .places{
+        width: 30%;
+        height: 130px;
+        flex-shrink: 0;
+        border-radius:20px;
+    }
+
+    .choose{
+        color: var(--textclr, #5E6282);
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 124.5%; /* 19.92px */
+    }
+    
+    .chooseContent{
+        color: var(--textclr, #5E6282);
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 124.5%; /* 19.92px */
+    }
+
+    .easy2{
+        color: var(--textclr, #5E6282);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px; /* 163.636% */
+    }
+    .padd{
+        padding-left: 0%;
+    }
+    
 }
